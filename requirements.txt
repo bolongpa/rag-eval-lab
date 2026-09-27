@@ -1,0 +1,2 @@
+# Runtime dependencies (stdlib + requests only)
+requests>=2.31
