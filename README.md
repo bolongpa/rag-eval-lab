@@ -1,5 +1,9 @@
 # rag-eval-lab
 
+[![CI](https://github.com/bolongpa/rag-eval-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/bolongpa/rag-eval-lab/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
+[![Python 3.10+](https://img.shields.io/badge/python-3.10%2B-blue.svg)](pyproject.toml)
+
 A lightweight, dependency-minimal **LLM-as-judge evaluation harness for RAG pipelines**. Point it at a JSONL dataset of `(question, contexts, answer, ground_truth)` records and get per-sample scores plus aggregate means across four standard RAG metrics — rendered as JSON and Markdown reports.
 
 Built for iterating on retrieval and generation quality without wiring up a heavy eval framework.
@@ -143,6 +147,25 @@ rag-eval-lab/
 - Reference-free faithfulness variant (no ground truth needed)
 - Bootstrap confidence intervals on aggregates
 - HTML report with per-sample claim-level breakdowns
+
+## Evaluation status
+
+All numbers shown in this README come from the deterministic `FakeJudge` on the bundled 8-sample demo set — they illustrate the report format, not model performance. No public-benchmark scores are claimed. Planned benchmark work is listed under Roadmap.
+
+## Citation
+
+If you use this project in academic or technical work, please cite it as:
+
+```bibtex
+@software{pan2026ragevallab,
+  author = {Bolong Pan},
+  title = {rag-eval-lab: a lightweight LLM-as-judge evaluation harness for RAG pipelines},
+  year = {2026},
+  url = {https://github.com/bolongpa/rag-eval-lab}
+}
+```
+
+A Zenodo DOI will be added here once minted.
 
 ## License
 
