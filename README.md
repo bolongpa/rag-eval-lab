@@ -161,11 +161,12 @@ If you use this project in academic or technical work, please cite it as:
   author = {Bolong Pan},
   title = {rag-eval-lab: a lightweight LLM-as-judge evaluation harness for RAG pipelines},
   year = {2026},
-  url = {https://github.com/bolongpa/rag-eval-lab}
+  url = {https://github.com/bolongpa/rag-eval-lab},
+  doi = {10.5281/zenodo.23034524}
 }
 ```
 
-A Zenodo DOI will be added here once minted.
+DOI: [10.5281/zenodo.23034524](https://doi.org/10.5281/zenodo.23034524)
 
 ## License
 
